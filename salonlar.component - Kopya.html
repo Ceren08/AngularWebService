@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CINEMA</title>
+</head>
+<body>
+    
+    <tr *ngFor='let i of data$'>
+        <td>{{i.id}}</td>
+    </tr>
+</body>
+</html>
+<div *ngFor='let salonlar of salonlar$' style="text-align : center">
+<h2>{{salonlar.adi}}={{salonlar.id}}</h2>
+</div>
